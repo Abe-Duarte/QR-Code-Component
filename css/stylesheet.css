@@ -1,5 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+@media only screen and (max-width: 375px) {
+  .main-card {
+    background-color: #FFF;
+    width: 80vw;
+    height: 75vh;
+    border-radius: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 85% 1fr;
+    grid-template-rows: 1fr 55% 20% 22%;
+  }
+  .main-card h1 {
+    font-size: 1.3em;
+    color: hsl(218, 44%, 22%);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-weight: 700;
+    align-self: center;
+    text-align: center;
+  }
+  .main-card p {
+    font-size: 0.9em;
+    color: hsl(220, 15%, 55%);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-weight: 400;
+    text-align: center;
+    align-self: flex-start;
+  }
+  .qr-img {
+    width: 70vw;
+    height: 40vh;
+    border-radius: 1em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: flex-start;
+  }
+}
+/*
+@media only screen and (max-width: 1440px) {
+  .main {
+    background-color: hsl(212, 45%, 89%);
+  }
+  .main-card {
+
+  }
+  .main-card h1 {
+
+  }
+  .main-card p {
+
+  }
+  .qr-img {
+
+  }
 }
