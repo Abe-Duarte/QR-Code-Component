@@ -34,4 +34,4 @@ Desktop View: 1440px
 
 - GitHub - [@Abe-Duarte](https://www.github.com/Abe-Duarte)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Abe-Duarte)
-- Telegram - [@Abe-Duarte]
+- Telegram - @Abe-Duarte
