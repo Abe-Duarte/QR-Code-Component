@@ -14,10 +14,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 The objetive of this project is to serve as a practice of my HTML and CSS abilities. The base archives, such as images and designs where provided by [Frontendmentor](https://frontendmentor.io/).
 
 ### Screenshot
-Mobile View: 375px
+<b>Mobile View: 375px</b>
 ![](./screenshots/375px-width.png)
 
-Desktop View: 1440px
+<b>Desktop View: 1440px</b>
 ![](./screenshots/1440px-width.png)
 
 ### Links
