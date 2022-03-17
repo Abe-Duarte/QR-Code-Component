@@ -11,6 +11,10 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
+.main-card {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
 @media only screen and (min-width: 375px) {
   .main-card {
     background-color: #FFF;
@@ -314,7 +318,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1080px) and (orientation: portrait) {
+@media only screen and (min-width: 1070px) and (orientation: portrait) {
   .main-card {
     background-color: #FFF;
     width: 80%;
@@ -331,7 +335,7 @@ body {
     grid-template-rows: 1fr 50% 20% 25%;
   }
   .main-card h1 {
-    font-size: 3.5em;
+    font-size: 4rem;
     color: hsl(218, 44%, 22%);
     grid-column-start: 2;
     grid-column-end: 3;
@@ -342,7 +346,7 @@ body {
     text-align: center;
   }
   .main-card p {
-    font-size: 2.8em;
+    font-size: 2.5rem;
     color: hsl(220, 15%, 55%);
     grid-column-start: 2;
     grid-column-end: 3;
